@@ -1,0 +1,27 @@
+/* form in React  */
+.name{
+    padding: 12px;
+    border: 2px solid white;
+    width: 30%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff
+}
+::placeholder {
+    color: rgb(238, 229, 229);
+    opacity: 1; 
+  }
+.emailid{
+    padding: 12px;
+    border: 2px solid white;
+    width: 30%;
+    text-align: center; 
+}
+.textarea{
+    height: 20%;
+    padding: 10px;
+    border: 2px solid white;
+    width: 30%;
+    /* text-align: center; */
+    text-transform: capitalize;
+} 

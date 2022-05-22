@@ -1,0 +1,14 @@
+button {
+    padding: 15px 25px; 
+    color: white; 
+    outline: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #9b59b6;
+    border-radius: 5px;
+    cursor: pointer; 
+    border: 3px solid white;
+    align-items: center;
+    border-radius: 8px; 
+} 

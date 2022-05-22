@@ -1,0 +1,33 @@
+/* Get Count and get Time Project CSs  */
+
+.hook{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.increment{  
+    font-weight: bold;
+    font-size: 60px; 
+}
+/* .digital  Clock Mini project  */
+.digital{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+
+}
+.ditiTime{  
+    font-weight: bold;
+    font-size: 150px; 
+    color: white;
+    background-color:black;
+    letter-spacing: 2px;
+    font-family:'digital-clock-font'; 
+} 

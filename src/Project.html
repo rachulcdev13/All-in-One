@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>
+        ======================================================================
+        Netflix Mini Project with ternory condition in App Component.
+        const App = () => (
+        <>
+            <Netflixheading />
+            {Seriesdetails.map((val, index) => {
+            console.log(index);
+            return (
+            <Card key={val.id} imgsrc={val.imgsrc} title={val.title} SeriesName={val.SeriesName}
+                WebLink={val.WebLink} />
+            );
+            })
+            }
+            {/* ternory if condition */}
+            {/* {(Fevs==="Amazone") ?
+            <Amazone />:
+            <Netflix /> } */}
+        </>
+        );
+        export default App;
+        ======================================================================
+    </p>
+</body>
+
+</html>

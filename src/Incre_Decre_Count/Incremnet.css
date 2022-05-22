@@ -1,0 +1,36 @@
+/* Increment adn decrement Count  */
+.Increment{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color:#66fc5e;
+}
+.center_count{
+    margin-top: 70px;
+    height: 50%;
+    width: 40%;
+    border-radius: 20px;
+    background-color: #fff;
+    text-align: center;
+} 
+.addbtns{  
+    font-weight: bold; 
+    cursor: pointer;
+    font-size: 15px; 
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.1);
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.addbtn:hover{ 
+    background-color: green;
+    transform: scale(1.05, 1.05);
+} 
+
+@media(max-width:768px) {
+    .center_div { 
+        width: 55%;
+    }
+
+}

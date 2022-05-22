@@ -1,0 +1,115 @@
+ 
+/* Slot css project  */
+.matchigslot{
+    text-align: center; 
+    box-shadow: 0px 10px 13px -7px rgba(0, 0, 0, 0.1);
+    margin-left: 500px;
+    margin-right: 500px; 
+    padding: 5px; 
+    background-color: rgb(239, 185, 185);
+    border: 1px solid black;
+    text-transform: capitalize;
+
+}
+.matchigslot:hover{
+    box-shadow: 0px 30px 18px -8px rgba(234, 4, 4, 0.1);
+    ;
+    transform: scale(1.02, 1.02);
+
+}
+.slot{
+    color: red;
+    font-size: initial;
+    letter-spacing: 0px;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+}
+/* slot .heading_style */
+.slotheading{
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 0px;
+    margin-top: -08px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+} 
+
+
+.accod{
+    width: 100%; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(246, 231, 99);
+    align-items: center;
+    background-image: linear-gradient(#f3e97f,#eff4fd);   
+}
+
+.main_div{
+    background-color: rgba(255 255 255);
+    width: 40vw;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow:rgba(17,17,26,0.5) 0px 1px 0px,rgba(17,17,26,0.5)0px 0px 8px; 
+}
+h1{
+    text-align: center;
+    font-family: "bitter",serif;
+    text-transform: capitalize;
+    font-size: 35px;
+    color: red;
+} 
+.ques{
+    margin-left: 10px;
+    color: rgb(46, 44, 44); 
+
+}
+.add{
+     color: aqua;
+     border-radius: 50%;
+     padding: 5px;
+     font-size: 10px;
+    background-color:rgb(214, 211, 205);
+}
+.minus{
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 10px;
+   background-color:orange;
+}
+.answers{
+    background-color: #f3e3c4; 
+    padding: 10px;
+    font-family: "raleway",sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.7; 
+    color: rgb(40,37,53);
+    margin-left: 25px;
+}
+    .questionss h3{
+        background-color: #acacba;
+        color: #303242;
+        font-family:"raleway",sans-serif;
+        word-spacing: 1px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        font-size: 15px;
+        padding: 20px 5px 10px 5px;
+        border-radius: 5px;
+        margin-top: 10px;
+    } 
+.main_heading {
+cursor: pointer;
+display: flex;
+margin-left: 10px;
+border-radius: 50%;
+box-shadow:rgba(17,17,26,0.1) 0px 4px 16px,rgba(17,17,26,0.1)0px 8px 24px,rgba(17,17,26,0.1),0px 16px 56px;
+background-color: #fff;
+padding: 5px;
+}

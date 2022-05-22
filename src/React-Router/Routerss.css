@@ -1,0 +1,20 @@
+/* body{
+    background-color: rgb(53, 131, 233);  
+
+}   */
+ 
+.home{ 
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
+}  
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+}  
+.dropdown{
+    margin-right: 10px;
+}
